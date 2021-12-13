@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>gym</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&display=swap" rel="stylesheet">
+	<style >
+		body{margin:0px;
+			padding:0px;
+			background: url(https://images.unsplash.com/photo-1554284126-aa88f22d8b74?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80);
+			height:2050px;
+			color : white;
+			font-family: 'Baloo Bhai 2', cursive;
+		}
+	.left{border:2px solid red;
+		display: inline-block;
+		margin:12px auto;
+		top:20px;
+	}
+	.right{position: absolute;
+		border: none;
+		top:22px;
+		right:34px;
+
+	}
+	.mid{display:block;
+		border: 2px solid yellow;
+		margin:29px auto;
+		top:0px;
+		width: 55%;
+
+	}
+	.navbar{display: inline-block;
+
+}
+.navbar li{display:inline-block;
+font-size: 25px;}
+.navbar li a{color:white;
+text-decoration: none;
+padding: 34px 23px;}
+.navbar li a:hover,.navbar li a.active{
+	text-decoration: underline;
+	color:red;
+	/*background-color: skyblue;*/
+}
+.left img{
+	width:90px;
+	filter: invert(100%);
+}
+.btn{color: white;
+	background-color: black;
+	padding:4px 14px;
+	border-radius: 10px;
+	border:2px solid red;
+	font-size: 14px;
+
+}
+.btn:hover{background-color: rgb(31,30,30);
+	cursor: pointer;
+}
+.container{
+	border:2px solid white;
+	border-radius: 14px;
+	margin: 76px 96px;
+	width:33%;
+	padding: 78px;
+}
+.formgroup input{text-align: centre;
+	display:block;
+	width:458px;margin:3px auto;
+	padding:6px;text-align: center;
+	border: 2px solid black;
+	font-size: 21px;
+	border-radius: 13px;
+font-family: :'Baloo Bhai 2', cursive;
+		}
+.container h1{
+	text-align: center;
+}
+.container button{
+	width:464px;
+	margin: 4px;
+	font-size: 20px;
+}
+
+
+}
+</style>
+</head>
+
+<body>
+	<header class="header">
+		<!-- left box for logo -->
+		<div class="left">
+			<img src="https://t3.ftcdn.net/jpg/02/33/09/06/360_F_233090635_IofaaPW1UlxZUsQyl9Ydm9Js4hUZmyWv.jpg" alt="logo" text="fittness">
+		</div>
+		<!-- mid box for navbar -->
+		<div class="mid"><ul class="navbar">
+			<li><a href= "#" class="">home</a></li>
+			<li><a href= "#">about us</a></li>
+			<li><a href= "#">fitness calculator</a></li>
+			<li><a href= "#">contact us</a></li>
+		</ul></div>
+		<!-- right box for buttons -->
+		<div class="right"><button class="btn">call us now</button>
+		<button class="btn">email us</button>
+	</div>
+	</header>
+	<div class="container"><h1>Join the best gym of Bokaro</h1>
+		<form action="gym_submit.php" >
+			<div class="formgroup">
+				<input type="text" name="" placeholder = "enter your Name">
+			</div>
+			<div class="formgroup">
+				<input type="text" name="" placeholder = "enter your Age">
+			</div>
+			<div class="formgroup">
+				<input type="text" name="" placeholder = "enter your Gender">
+			</div>
+			<div class="formgroup">
+				<input type="text" name="" placeholder = "enter your Locality">
+			</div>
+			<div class="formgroup">
+				<input type="text" name="" placeholder = "enter your Address">
+			</div>
+			<button class = "btn">submit</button>
+			
+		</form></div>
+</body>
+</html>
